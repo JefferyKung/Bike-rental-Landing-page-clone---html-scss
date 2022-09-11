@@ -1,0 +1,91 @@
+// $color-dark: #262626;
+// $color-black: #000;
+// $color-white: #fff;
+// $color-primary: #d3ab55;
+// $color-secondary: #bbb;
+
+// $font-dancingScript: "Dancing Script", cursive;
+// $font-josefinSans: 'Josefin Sans', sans-serif;
+// $font-nunito: 'Nunito', sans-serif;
+
+// @mixin flexLayout {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }
+
+// @mixin textStyles($transform: uppercase) {
+//   font-weight: 300;
+//   letter-spacing: 2px;
+//   text-transform: $transform;
+// }
+
+// @mixin centering($topValue) {
+//   position: absolute;
+//   top: $topValue;
+//   left: 50%;
+//   transform: translate(-50%, -50%);
+// }
+
+// %fullSpace {
+//     width: 100%;
+//     height: 100%;
+// }
+
+// * {
+//   margin: 0;
+//   padding: 0;
+// }
+
+// body {
+//   background-color: $color-dark;
+// }
+
+h1 {
+  color: #ffffff;
+  font-size: 6.25rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #47dbdb;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted rgb(199, 66, 66) 6px;
+  border-bottom: none;
+  width: 15%;
+  margin: 50px auto;
+}
+
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}

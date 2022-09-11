@@ -1,0 +1,169 @@
+@use 'base' as *;
+
+// homepage
+
+.personalIcon{
+    width: 20%;
+    height: 10%;
+    
+  }
+  
+.navbar{
+    font-size: 1.15rem;
+    height: 80px;
+    width: 800px;   
+}
+
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+
+    &:hover {
+        background: #30e3cb;
+        background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+        background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+        background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+        background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+        background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+        text-decoration: none;
+        }
+  }
+
+
+
+.h2OnCover{
+color: rgb(253, 69, 69);
+font-family: 'Montserrat', sans-serif;
+font-size: 2.5rem;
+font-weight:bold;
+padding-bottom: 10px;
+}
+
+.ours{
+width: 350px;
+height: 450px;
+border: 3px solid black;
+margin: 10px;
+font-size: 1.1rem;
+
+}
+  
+.bikeModel{
+    p{
+        padding: 0 10%;
+    }
+}
+
+.bikeModelPic{
+width: 40%;
+}
+
+
+// footer
+
+.copyright {
+color: #EAF6F6;
+font-size: 0.75rem;
+padding: 20px 0;
+}
+
+
+// ----------bike rental page-------------
+.btn2 {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 31px;
+    padding: 10px 40px 10px 40px;
+    text-decoration: none;
+
+    &:hover {
+        background: #3cb0fd;
+        background-image: -webkit-linear-gradient(top, #3cb0fd, #fcff3d);
+        background-image: -moz-linear-gradient(top, #3cb0fd, #fcff3d);
+        background-image: -ms-linear-gradient(top, #3cb0fd, #fcff3d);
+        background-image: -o-linear-gradient(top, #3cb0fd, #fcff3d);
+        background-image: linear-gradient(to bottom, #3cb0fd, #fcff3d);
+        text-decoration: none;
+      }
+  }
+
+
+  .bikepicR{
+    width: 40%;
+  }
+
+  //   -------------------booking page---------------------
+
+
+
+.select {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 15px;
+    width: 100%;
+
+    select {
+        font-family: 'Arial';
+        display: inline-block;
+        width: 100%;
+        cursor: pointer;
+        padding: 10px 10px;
+        outline: 0;
+        border: 2px solid #ffffff;
+        border-radius: 14px;
+        background: #eaabab;
+        color: #ff0000;
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+
+        &:hover, &:focus {
+            color: #a918b7;
+            background: #d298f6;
+        }
+
+        &:disabled {
+            opacity: 0.5;
+            pointer-events: none;
+        }
+
+
+    }
+
+    &::-ms-expand {
+        display: none;
+    }
+
+}    
+
+.select_arrow {
+    position: absolute;
+    top: 16px;
+    right: 15px;
+    pointer-events: none;
+    border-style: solid;
+    border-width: 8px 5px 0px 5px;
+    border-color: #7b7b7b transparent transparent transparent;
+}

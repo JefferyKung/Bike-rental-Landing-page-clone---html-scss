@@ -1,0 +1,190 @@
+@use 'base' as *;
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+ }
+
+ .navbar{
+    padding-top: 40px;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+ }
+
+
+ .top-container {
+    background-image: url(https://images.unsplash.com/photo-1596039793618-eefbea88105a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80) ;
+    padding-top: 100px;
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+  }
+
+
+.RTBColumn{
+    width: 20%;
+    display: inline-block;
+}
+
+.price-columns{
+    display: flex;
+    justify-content: center;
+
+    .others{
+        width: 350px;
+        height: 450px;
+        border: 3px solid black;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.1rem;
+        }
+
+    .ours{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+  }
+
+.witness{ 
+    p{
+        padding: 0 10%;
+    }
+}
+
+.FAQContent{
+    text-align: left;
+    padding: 0 10%;
+}
+
+.bookNow{
+    margin-bottom: 50px;
+}
+
+//   footer
+.footer-container {
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+  } 
+
+
+//   -------------------bike rental page---------------------
+.rentalPage{
+    text-align: left;
+    padding:5% 10%;
+    p{
+        font-size: 0.8rem;
+        font-weight: lighter;
+      }
+}
+  
+//   -------------------booking page---------------------
+.bookingPage{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .leftContainer{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .rightContainer{
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    padding: 0 8% 8%;
+  }
+  
+  .bikepicB{
+    width: 75%;
+  }
+
+  // --------------location page---------
+
+  .locationP{
+    padding: 0 10%;
+    margin-bottom: 7%;
+  }
+  
+  .locationPic{
+    width: 35%;
+  }
+  
+  .locationResult{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    padding-left: 15%;
+    line-height: 5%;
+    font-size: 60%;
+  }
+  
+  .personalIconLocationPage{
+    width:5%;
+    margin-top: 5%;
+  }
+  
+  .contact{
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 5%;
+  
+        .email{
+            width: 30%;
+        }
+        .call{
+            width: 30%;
+        }
+        .address{
+            width: 30%;
+        }
+  
+  }
+
+
+//   ---------article-----------
+  .article1{
+    width: 45%;
+  }
+  
+  .article2{
+    width: 45%;
+  }
+  
+  .article3{
+    width: 45%;
+  }
+  
+  .article4{
+    width: 45%;
+  }
+  
+  .upperRow{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5%;
+  }
+  
+  .lowerRow{
+    display: flex;
+    justify-content:  space-around;
+    margin-bottom: 5%;
+  }
+  .articlePic4{
+    width:45%;
+    height: 66.5%;
+  }
