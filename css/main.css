@@ -215,9 +215,8 @@ header {
   margin-bottom: 5%;
 }
 
-.articlePic4 {
-  width: 45%;
-  height: 66.5%;
+.article4 img {
+  width: 50%;
 }
 
 .personalIcon {
@@ -486,18 +485,18 @@ header {
     background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
     text-decoration: none;
   }
-  .email {
-    width: 100%;
-  }
-  .call {
-    width: 100%;
-  }
-  .address {
-    width: 100%;
-  }
   .contact {
     display: block;
     float: none;
+  }
+  .contact .email {
+    width: 100%;
+  }
+  .contact .call {
+    width: 100%;
+  }
+  .contact .address {
+    width: 100%;
   }
 }
 @media only screen and (max-width: 750px) {

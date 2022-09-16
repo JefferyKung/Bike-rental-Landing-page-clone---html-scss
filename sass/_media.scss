@@ -152,20 +152,21 @@
     text-decoration: none;
   }
 
-  .email{
-    width: 100%;
-  }
-  .call{
-    width: 100%;
-  }
-  .address{
-    width: 100%;
-  }
+
   
   .contact{
-    display: block;
+    display:block;
     float: none;
-  
+
+    .email{
+      width: 100%;
+    }
+    .call{
+      width: 100%;
+    }
+    .address{
+      width: 100%;
+    }
   }
     
 }
@@ -304,5 +305,7 @@
         font-size: 0.5rem;
     }
 }
+
+
 
 }
