@@ -85,7 +85,7 @@ header {
   width: 350px;
   height: 450px;
   border: 3px solid black;
-  margin: 10px;
+  margin: 8px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -95,6 +95,8 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 350px;
+  height: 450px;
 }
 
 .witness p {
@@ -359,13 +361,18 @@ header {
   border-color: #7b7b7b transparent transparent transparent;
 }
 
-@media only screen and (max-width: 454px) {
+@media only screen and (max-width: 723px) {
   body {
     background-color: #000000;
   }
+  .RTBImg {
+    width: 50%;
+    height: 50%;
+  }
   .RTBColumn {
-    width: 100%;
+    width: 80%;
     display: block;
+    margin-left: 10%;
   }
   .RTBWapprt {
     display: block;
@@ -416,26 +423,12 @@ header {
   }
   .price-columns {
     display: block;
-    float: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-  }
-  .others {
-    width: 100%;
-    height: 100%;
-    border: 3px solid black;
-    margin: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 1.1rem;
+    margin-left: 23%;
   }
   .ours {
     width: 100%;
     height: 100%;
     border: 3px solid black;
-    margin: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -498,8 +491,14 @@ header {
   .contact .address {
     width: 100%;
   }
+  .bookNow h2 {
+    margin: 3% 10% 6%;
+  }
+  .RTB h2 {
+    margin: 5% 10%;
+  }
 }
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 925px) {
   body {
     background-color: #000000;
   }
@@ -601,6 +600,10 @@ header {
   }
   .contact p {
     font-size: 0.5rem;
+  }
+  .RTBImg {
+    width: 75%;
+    height: 75%;
   }
 }
 
